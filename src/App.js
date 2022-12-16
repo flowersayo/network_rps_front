@@ -20,7 +20,7 @@ function App() {
     <Background>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/rooms/:roomId/*" element={<GameRoomPage />} />
+        <Route path="/room/:roomId/*" element={<GameRoomPage />} />
       </Routes>
     </Background>
   );
