@@ -6,7 +6,7 @@ const Btn = styled.button`
   border: none;
   cursor: pointer;
   border-radius: 50px;
-  width: ${({ width }) => (width ? width : "100px")};
+  width: ${({ width }) => (width ? width : "150px")};
   height: ${({ height }) => (height ? height : "50px")};
   color: white;
   font-size: 20px;
