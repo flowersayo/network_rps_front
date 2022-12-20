@@ -39,6 +39,10 @@ function LoginBox() {
   const id = null;
 
   console.log(name, selectedOption);
+
+  const _joinGame = () => {
+    navigate(`/room/${id}/waiting`);
+  };
   return (
     <BgBox width="250px" height="300px" color="white">
       <Col>
@@ -73,12 +77,7 @@ function LoginBox() {
           />
         </Row>
         <SizedBox height={"50px"} />
-        <Button
-          width="100px"
-          height="40px"
-          text="입장"
-          onClick={() => navigate(`/room/${id}/waiting`)}
-        />
+        <Button width="100px" height="40px" text="입장" onClick={_joinGame} />
       </Col>
     </BgBox>
   );
