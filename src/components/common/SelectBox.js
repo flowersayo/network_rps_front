@@ -6,12 +6,12 @@ export default function SelectBox({ selectedOption, setSelectedOption }) {
   const [highlightedOption, setHighlightedOption] = useState("");
   const options = [
     "KING",
-    "Upnl",
+    "UPnL",
     "SNUGDC",
     "CAT&Dog",
     "G-POS",
     "HAJE",
-    "POOLC",
+    "PoolC",
     "STAFF",
   ];
   /*
